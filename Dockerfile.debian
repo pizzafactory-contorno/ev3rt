@@ -8,4 +8,5 @@ RUN sudo apt-get update && sudo apt-get upgrade -y && \
     sudo rm ev3rt-prepare-ubuntu.sh && \
     sudo apt-get clean && \
     sudo rm -rf /var/lib/apt/lists/*
+ENV PATH=$PATH:/opt/gcc-arm-none-eabi-6-2017-q1-update/bin
     

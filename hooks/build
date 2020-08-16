@@ -7,5 +7,5 @@ else
     DOCKERFILE_PATH_ARG="-f $DOCKERFILE_PATH"
 fi
 
-docker build --build-arg BASE_TAG=${DOCKER_TAG} -t $IMAGE_NAME .
+docker build --build-arg BASE_TAG=${DOCKER_TAG} -t $IMAGE_NAME ${DOCKERFILE_PATH_ARG} .
 
