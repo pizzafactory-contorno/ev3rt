@@ -1,4 +1,4 @@
-FROM pizzafactory0contorno/piatto:debian-11@sha256:5b40d929ac6718967b8476db5bbc5eaf36c69a76c6de7c129c381b859f2c19cb
+FROM pizzafactory0contorno/piatto:debian-11@sha256:04f833721fb29f128da29b68c15f4662b74ec09bb78a49244c67b5f54efb6a48
 
 RUN sudo apt-get update \
  && sudo apt-get upgrade -y \
